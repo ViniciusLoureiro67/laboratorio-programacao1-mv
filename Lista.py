@@ -1,3 +1,8 @@
+#  "id": 1,
+#    "titulo": "Percorrendo uma Lista",
+#    "descricao": "Crie uma função que receba uma lista como argumento e percorra todos os seus elementos, imprimindo cada um na tela."
+
+
 def percorrer_lista(lista):
     for item in lista:
         print(item)
