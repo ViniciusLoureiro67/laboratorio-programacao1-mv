@@ -3,7 +3,7 @@
 # "descricao": "Crie uma função que retorne o segundo maior número de uma lista. Considere que a lista pode ter números duplicados."
 
 def segundo_maior(lista):
-    # Remove duplicatas usando set, depois colocamos como lista novamente
+    # Remove duplicados usando set, depois colocamos como lista novamente
     numeros_unicos = list(set(lista))
 
     # Verifica se tem pelo menos dois números diferentes, pois se não tem pelo menos 2 números, como saberemos o segundo maior?
